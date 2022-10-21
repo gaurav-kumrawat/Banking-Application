@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: ConfigServer
+      uri: http://localhost:8888
+server:
+  port: 8100
